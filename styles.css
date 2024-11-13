@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=207724') 16 16, auto;
 }
 
 nav ul {
@@ -55,3 +56,5 @@ footer {
 .button:hover {
     background-color: rgb(206, 206, 206); /* لون عند المرور بالماوس */
 }
+
+/* تغيير شكل المؤشر في كامل الموقع إلى صورة بلوك العشب */
