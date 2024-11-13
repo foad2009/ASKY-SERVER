@@ -1,9 +1,32 @@
 body {
     font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #f7c0c0, #ff7f50, #ffeb3b);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
 }
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -54,5 +77,3 @@ footer {
 .button:hover {
     background-color: rgb(206, 206, 206); /* لون عند المرور بالماوس */
 }
-
-/* تغيير شكل المؤشر في كامل الموقع إلى صورة بلوك العشب */
